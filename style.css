@@ -56,3 +56,10 @@ p{
 .topmenu li:nth-child(3){
 	flex-grow: 2;
 	}
+.img ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+.img{
+	display: grid;
+}
