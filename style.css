@@ -56,10 +56,67 @@ p{
 .topmenu li:nth-child(3){
 	flex-grow: 2;
 	}
-.img ul{
+.img ol{
 	text-decoration: none;
 	list-style-type: none;
 }
-.img{
-	display: grid;
+.img input{
+	width: 130px;
+	height: 50px;
+}
+.img ol{
+	display:grid; 
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(10,1fr);
+}
+.img ol li input{
+	margin: 5px;
+	width: 300px;
+}
+.img ol{
+	margin-top: -250px;
+}
+.img ol li:nth-child(1){
+grid-column: 2;
+grid-row: 1;
+}
+.img ol li:nth-child(2){
+grid-column: 2;
+grid-row: 2;
+}
+.img ol li:nth-child(3){
+grid-column: 2;
+grid-row: 3;
+}
+.img ol li:nth-child(4){
+grid-column: 2;
+grid-row: 4;
+}
+.img ol li:nth-child(5){
+grid-column: 2;
+grid-row: 5;
+}
+.img ol li:nth-child(6){
+grid-column: 2;
+grid-row: 6;
+}
+.img ol li:nth-child(7){
+grid-column: 2;
+grid-row: 7;
+}
+.img ol li:nth-child(8){
+grid-column: 3;
+grid-row: 1;
+}
+.img ol li:nth-child(9){
+grid-column: 3;
+grid-row: 2;
+}
+.img ol li:nth-child(10){
+grid-column: 3;
+grid-row: 3;
+}
+.img ol li:nth-child(11){
+grid-column: 3;
+grid-row: 4;
 }
