@@ -24,7 +24,11 @@
 		</ol>
 		<div class="img">
 			<img src="img/av_256.png" alt="#">
-			<div class="bphoto"><button>Choose photo</button></div>
+			<div class="bphoto">
+				<input type="file" id="my" checked>
+				<label for="my">
+					<div class="bottom_wrap"><div class="bottoms"><span>Choose photo</span></div></div>
+				</label></div>
 			<ol>
 					<li><input type="text" placeholder="First name" maxlength="15" pattern="[A-Za-zА-Яа-яЁё]"></li>
 					<li><input type="text" placeholder="Last name" maxlength="15" pattern="[A-Za-zА-Яа-яЁё]"></li>
@@ -32,11 +36,11 @@
 					<li><input type="tel" placeholder="Phone number" maxlength="15" pattern="\+3\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"></li>
 					<li><input type="text" placeholder="Adress" maxlength="20" pattern="[A-Za-zА-Яа-яЁё][\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"></li>
 					<li><input type="text" placeholder="FB link" maxlength="30" pattern="[A-Za-zА-Яа-яЁё]"></li>
-					<li><button>Save changes</button></li>
+					<li><button class="first">Save changes</button></li>
 					<li><input type="password" placeholder="Old password" maxlength="23" pattern="(?=^.{23,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*"></li>
 					<li><input type="password" placeholder="New password" maxlength="23" pattern="(?=^.{23,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*"></li>
 					<li><input type="password" placeholder="Repeat password" maxlength="23" pattern="(?=^.{23,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*"></li>
-					<li><button>Change password</button></li>
+					<li><button class="second">Change password</button></li>
 				</ol>
 
 			</form>
